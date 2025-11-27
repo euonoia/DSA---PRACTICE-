@@ -2,7 +2,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // Change ONLY this file name when practicing
-const CURRENT_PROBLEM = "../call_stacks/activity.js";
+const CURRENT_PROBLEM = "../primitivesvsreferences/activity.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
