@@ -1,6 +1,4 @@
-//longest substring without repeating chars
-//max sum subarray
-//unique characters
+
 export function solve(){
     function longestSubstring(){
         let left = 0;
