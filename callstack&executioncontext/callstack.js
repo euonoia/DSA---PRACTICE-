@@ -1,13 +1,11 @@
 export function solve(){
-
     function first(){
-        console.log("i am first");
+        console.log("first");
         second();
     }
     function second(){
-        console.log("i am second");
+        console.log("second");
     }
-
     first();
     return;
 }

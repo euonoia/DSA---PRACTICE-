@@ -1,15 +1,15 @@
 export function solve(){
-    let globalVar = "i am global var";
-        function outer(){
-            let outerVar = " i am outerVar";
-            function innerVar(){
-                let innerVar = " i am innerVar";
-                console.log(globalVar);
-                console.log(outerVar);
-                console.log(innerVar);
-            }
-            innerVar()
+    let outerVar = "i am the outer";
+    function innerVar(){
+        let innerVar = "i am the inner";
+        function middleVar(){
+            let middleVar="i am the middle";
+            console.log(outerVar);
+            console.log(innerVar);
+            console.log(middleVar);
         }
-        outer();
-    return;
+        middleVar();
+    }
+    innerVar();
+
 }
