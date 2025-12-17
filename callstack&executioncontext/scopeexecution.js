@@ -1,15 +1,16 @@
 export function solve(){
-    let outerVar = "i am the outer";
-    function innerVar(){
-        let innerVar = "i am the inner";
-        function middleVar(){
-            let middleVar="i am the middle";
+    let outerVar = "I am outside";
+    function middleVar(){
+        let middleVar = "I am in the middle"
+        function insideVar(){
+            let innerVar = "I am inside";
             console.log(outerVar);
-            console.log(innerVar);
             console.log(middleVar);
+            console.log(innerVar);
         }
-        middleVar();
+        insideVar();
     }
-    innerVar();
+    middleVar();
 
+    return;
 }

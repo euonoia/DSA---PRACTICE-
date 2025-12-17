@@ -1,11 +1,10 @@
 export function solve(){
     function first(){
-        console.log("first");
+        console.log("Inside first");
         second();
     }
     function second(){
-        console.log("second");
+        console.log("Inside second");
     }
     first();
-    return;
 }
